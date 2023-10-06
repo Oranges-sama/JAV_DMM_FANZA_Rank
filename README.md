@@ -26,9 +26,9 @@ File format serial number - name
 
 example
 
-1. 河北彩花
-2. 石川澪
-3. 森沢かな
+1-河北彩花
+2-石川澪
+3-森沢かな
 
 名字后面曾用名不用添加
 
