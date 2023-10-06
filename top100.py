@@ -13,7 +13,7 @@ if response.status_code == 200:
     # 获取网页文本
     text = response.text
     # 定义正则表达式，匹配序号和名字
-    pattern = r"<td>(\d+)</td>\n<td><a href=\".*?\">(.*?)</a></td>"
+    pattern = r"<span class=\"rank\">(\d+)</span>\n<a href=\".*?\">(.*?)</a>"
     # 使用re.findall方法，找出所有符合条件的结果
     results = re.findall(pattern, text)
     # 打开一个文件，用于写入结果
