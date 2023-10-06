@@ -41,3 +41,9 @@ Former name after name does not need to be added
 漢化名を使用せず、bud/db/libraryなどとのドッキングを容易にするため
 
 Do not use Chinese names for convenient docking with sites such as Bud/db/library
+
+将5条网站内容全部拷贝下来到original.php里，按照顺序，然后使用top100.py脚本处理即可生成
+
+5つのウェブサイトのコンテンツをすべてoriginal.phpにコピーし、順番に従って、top 100.pyスクリプト処理を使用して生成することができます
+
+Copy all 5 website contents into original.php, in order, and then use the top100.py script to generate them
