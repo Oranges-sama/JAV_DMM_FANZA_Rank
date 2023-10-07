@@ -21,6 +21,12 @@ try:
     if results:
         # 打开一个文件，用于写入结果
         with open("top100.txt", "w", encoding="utf-8") as f:
+            # 获取当前的年份和月份
+            from datetime import datetime
+            year = datetime.now().year
+            month = datetime.now().month
+            # 写入日期字符串
+            f.write(f"<DATE:{year}.{month}>\n")
             # 遍历结果列表
             for result in results:
                 # 将序号和名字用-号分隔，写入文件中
