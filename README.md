@@ -32,18 +32,18 @@ example
 
 名字后面曾用名不用添加
 
-名前の後に名前を付ける必要はありません
-
-Former name after name does not need to be added
-
 不使用汉化名，为了和bud/db/library等站对接方便
-
-漢化名を使用せず、bud/db/libraryなどとのドッキングを容易にするため
-
-Do not use Chinese names for convenient docking with sites such as Bud/db/library
 
 将5条网站内容全部拷贝下来到original.php里，按照顺序，然后使用top100.py脚本处理即可生成
 
+名前の後に名前を付ける必要はありません
+
+漢化名を使用せず、bud/db/libraryなどとのドッキングを容易にするため
+
 5つのウェブサイトのコンテンツをすべてoriginal.phpにコピーし、順番に従って、top 100.pyスクリプト処理を使用して生成することができます
+
+Former name after name does not need to be added
+
+Do not use Chinese names for convenient docking with sites such as Bud/db/library
 
 Copy all 5 website contents into original.php, in order, and then use the top100.py script to generate them
